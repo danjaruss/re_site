@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5663b6a3-4d95-4349-9573-d468598d484e" name="Real Estate FTP" url="http://157.230.179.42">
+        <fileTransfer host="157.230.179.42" port="22" privateKey="C:\Users\Rodney\.ssh\id_rsa_do2" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

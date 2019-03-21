@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'jet_django',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -151,3 +152,8 @@ MESSAGE_TAGS = {
 #EMAIL_HOST_USER = 'rodney.browne@gmail.com'
 #EMAIL_HOST_PASSWORD = 'Asha8165'
 #EMAIL_USE_TLS = True
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass

@@ -1,4 +1,4 @@
-
+from jet_django.urls import jet_urls
 from django.contrib import admin
 from django.urls import path, include
 
@@ -6,6 +6,7 @@ from django.conf import settings
 from django.conf.urls.static import static
 
 urlpatterns = [
+    path('jet_api/', include(jet_urls)),
     path('', include('pages.urls')),
     path('listings/', include('listings.urls')),
     path('accounts/', include('accounts.urls')),
